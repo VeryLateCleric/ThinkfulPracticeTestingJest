@@ -17,7 +17,8 @@ describe("findLowestScoringStudent()", () => {
   });
 
   it("should return null given an empty list of students", () => {
-    /// complete this test
+    const actual = findLowestScoringStudent([]);
+    const expected = null;
     expect(actual).toBe(expected);
   });
 });
